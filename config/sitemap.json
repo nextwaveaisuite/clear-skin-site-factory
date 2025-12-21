@@ -1,0 +1,238 @@
+{
+  "version": "1.0",
+  "default_language": "en-AU",
+  "pages": [
+    {
+      "id": "home",
+      "role": "HUB",
+      "url": "/",
+      "topic": "clear-skin",
+      "primary_keyword": "Clear Skin Australia",
+      "secondary_keywords": [
+        "Australian skincare",
+        "skincare for sensitive skin",
+        "skincare for acne"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "money_clear_skin",
+      "role": "MONEY_PAGE",
+      "url": "/best-australian-skincare-clear-skin/",
+      "topic": "clear-skin",
+      "primary_keyword": "best australian skincare for clear skin",
+      "secondary_keywords": [
+        "best australian skincare brands",
+        "clear skin guide australia",
+        "australian skincare 2025"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "hub_sensitive",
+      "role": "HUB",
+      "url": "/skincare/sensitive-skin/",
+      "topic": "sensitive-skin",
+      "primary_keyword": "best skincare for sensitive skin australia",
+      "secondary_keywords": [
+        "sensitive skin routine australia",
+        "gentle australian skincare",
+        "skin barrier repair"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "hub_acne",
+      "role": "HUB",
+      "url": "/skincare/acne/",
+      "topic": "acne",
+      "primary_keyword": "best skincare for acne in australia",
+      "secondary_keywords": [
+        "acne-prone skincare routine australia",
+        "adult acne skincare",
+        "breakouts and sensitivity"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "subhub_adult_acne",
+      "role": "SUB_HUB",
+      "url": "/skincare/acne/adult-acne/",
+      "topic": "adult-acne",
+      "primary_keyword": "adult acne skincare australia",
+      "secondary_keywords": [
+        "adult acne routine",
+        "hormonal breakouts",
+        "adult acne and sensitive skin"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "subhub_acne_sensitive",
+      "role": "SUB_HUB",
+      "url": "/skincare/acne/acne-prone-sensitive-skin/",
+      "topic": "acne-sensitive-crossover",
+      "primary_keyword": "acne-prone sensitive skin australia",
+      "secondary_keywords": [
+        "sensitive acne skincare",
+        "gentle acne routine",
+        "breakouts from irritation"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "review_skin_virtue",
+      "role": "REVIEW_PAGE",
+      "url": "/reviews/skin-virtue/",
+      "topic": "brand-skin-virtue",
+      "primary_keyword": "skin virtue review australia",
+      "secondary_keywords": [
+        "skin virtue for sensitive skin",
+        "skin virtue for adult acne",
+        "is skin virtue worth it"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "review_seadragon",
+      "role": "REVIEW_PAGE",
+      "url": "/reviews/seadragon-organic/",
+      "topic": "brand-seadragon",
+      "primary_keyword": "seadragon organic review australia",
+      "secondary_keywords": [
+        "seadragon organic for sensitive skin",
+        "natural skincare australia review"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "review_natio",
+      "role": "REVIEW_PAGE",
+      "url": "/reviews/natio/",
+      "topic": "brand-natio",
+      "primary_keyword": "natio skincare review australia",
+      "secondary_keywords": [
+        "natio for sensitive skin",
+        "affordable australian skincare"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "guide_adore",
+      "role": "SUPPORT_PAGE",
+      "url": "/guides/adore-beauty/",
+      "topic": "retailer-adore",
+      "primary_keyword": "adore beauty skincare guide",
+      "secondary_keywords": [
+        "compare australian skincare brands",
+        "best place to buy skincare australia"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_sensitive_cleanser",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/sensitive-skin/best-cleanser/",
+      "topic": "sensitive-skin",
+      "primary_keyword": "best cleanser for sensitive skin australia",
+      "secondary_keywords": [
+        "gentle cleanser australia",
+        "non-stripping cleanser"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_sensitive_moisturiser",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/sensitive-skin/best-moisturiser/",
+      "topic": "sensitive-skin",
+      "primary_keyword": "best moisturiser for sensitive skin australia",
+      "secondary_keywords": [
+        "barrier moisturiser australia",
+        "fragrance free moisturiser"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_sensitive_sunscreen",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/sensitive-skin/best-sunscreen/",
+      "topic": "sensitive-skin",
+      "primary_keyword": "best sunscreen for sensitive skin australia",
+      "secondary_keywords": [
+        "sensitive skin spf",
+        "gentle sunscreen australia"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_acne_cleanser",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/acne/best-cleanser/",
+      "topic": "acne",
+      "primary_keyword": "best cleanser for acne australia",
+      "secondary_keywords": [
+        "acne-prone cleanser",
+        "gentle acne cleanser"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_acne_moisturiser",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/acne/best-moisturiser/",
+      "topic": "acne",
+      "primary_keyword": "best moisturiser for acne-prone skin australia",
+      "secondary_keywords": [
+        "non-comedogenic moisturiser australia",
+        "lightweight moisturiser"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "support_acne_sunscreen",
+      "role": "SUPPORT_PAGE",
+      "url": "/skincare/acne/best-sunscreen/",
+      "topic": "acne",
+      "primary_keyword": "best sunscreen for acne-prone skin australia",
+      "secondary_keywords": [
+        "non-comedogenic sunscreen",
+        "spf for acne"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "trust_about",
+      "role": "TRUST_PAGE",
+      "url": "/about/",
+      "topic": "trust",
+      "primary_keyword": "about clear skin australia",
+      "secondary_keywords": [
+        "our mission"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "trust_contact",
+      "role": "TRUST_PAGE",
+      "url": "/contact/",
+      "topic": "trust",
+      "primary_keyword": "contact clear skin australia",
+      "secondary_keywords": [
+        "get in touch"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "trust_disclosure",
+      "role": "TRUST_PAGE",
+      "url": "/disclosure/",
+      "topic": "trust",
+      "primary_keyword": "affiliate disclosure",
+      "secondary_keywords": [
+        "how we make money"
+      ],
+      "status": "planned"
+    }
+  ]
+}

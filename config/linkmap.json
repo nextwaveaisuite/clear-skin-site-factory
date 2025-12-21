@@ -1,0 +1,521 @@
+{
+  "version": "1.0",
+  "policies": {
+    "min_outbound_links_per_page": 2,
+    "min_inbound_links_per_page": 2,
+    "max_click_depth_to_money_page": 2,
+    "anchor_mix": {
+      "partial_match": 0.6,
+      "semantic": 0.3,
+      "exact": 0.1
+    }
+  },
+  "edges": [
+    {
+      "from": "home",
+      "to": "money_clear_skin",
+      "edge_type": "hub_to_money",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "Best Australian Skincare for Clear Skin",
+        "best Australian skincare",
+        "clear skin guide"
+      ]
+    },
+    {
+      "from": "home",
+      "to": "hub_sensitive",
+      "edge_type": "hub_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Sensitive Skin",
+        "skincare for sensitive skin",
+        "gentle skincare"
+      ]
+    },
+    {
+      "from": "home",
+      "to": "hub_acne",
+      "edge_type": "hub_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Acne & Breakouts",
+        "skincare for acne-prone skin",
+        "acne skincare"
+      ]
+    },
+    {
+      "from": "home",
+      "to": "subhub_adult_acne",
+      "edge_type": "hub_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Adult Acne",
+        "adult acne in Australia",
+        "adult breakouts"
+      ]
+    },
+    {
+      "from": "home",
+      "to": "review_skin_virtue",
+      "edge_type": "hub_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Skin Virtue review",
+        "Skin Virtue skincare",
+        "Skin Virtue (review)"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "review_skin_virtue",
+      "edge_type": "money_to_review",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "Skin Virtue",
+        "best overall brand",
+        "Skin Virtue skincare"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "review_seadragon",
+      "edge_type": "money_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Seadragon Organic",
+        "best natural option",
+        "Seadragon Organic review"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "review_natio",
+      "edge_type": "money_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Natio",
+        "best affordable choice",
+        "Natio review"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "hub_sensitive",
+      "edge_type": "money_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "sensitive skin skincare",
+        "sensitive skin guide",
+        "for sensitive skin"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "hub_acne",
+      "edge_type": "money_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "skincare for acne",
+        "acne-prone skincare",
+        "breakout-prone skin"
+      ]
+    },
+    {
+      "from": "money_clear_skin",
+      "to": "subhub_adult_acne",
+      "edge_type": "money_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "adult acne solutions",
+        "adult acne skincare",
+        "adult breakouts"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "review_skin_virtue",
+      "edge_type": "hub_to_review",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "Skin Virtue for sensitive skin",
+        "gentle skincare for sensitive skin",
+        "Skin Virtue review"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "money_clear_skin",
+      "edge_type": "hub_to_money",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best Australian skincare brands",
+        "clear skin guide",
+        "best skincare for clear skin"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "hub_acne",
+      "edge_type": "hub_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "acne-prone sensitive skin",
+        "breakouts and sensitivity",
+        "sensitive acne"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "subhub_adult_acne",
+      "edge_type": "hub_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "adult acne and sensitive skin",
+        "sensitive adult acne",
+        "adult breakouts"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "support_sensitive_cleanser",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best cleanser for sensitive skin",
+        "gentle cleanser",
+        "sensitive skin cleanser"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "support_sensitive_moisturiser",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best moisturiser for sensitive skin",
+        "barrier moisturiser",
+        "sensitive skin moisturiser"
+      ]
+    },
+    {
+      "from": "hub_sensitive",
+      "to": "support_sensitive_sunscreen",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best sunscreen for sensitive skin",
+        "sensitive skin SPF",
+        "gentle sunscreen"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "subhub_adult_acne",
+      "edge_type": "hub_to_subhub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "adult acne in Australia",
+        "adult acne guide",
+        "adult breakouts"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "review_skin_virtue",
+      "edge_type": "hub_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best skincare for adult acne",
+        "Skin Virtue review",
+        "Skin Virtue"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "hub_sensitive",
+      "edge_type": "hub_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "acne-prone sensitive skin",
+        "sensitive acne",
+        "breakouts from irritation"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "money_clear_skin",
+      "edge_type": "hub_to_money",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best Australian skincare for clear skin",
+        "clear skin guide",
+        "best skincare brands"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "support_acne_cleanser",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best cleanser for acne",
+        "acne cleanser",
+        "gentle acne cleanser"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "support_acne_moisturiser",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best moisturiser for acne-prone skin",
+        "non-comedogenic moisturiser",
+        "lightweight moisturiser"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "support_acne_sunscreen",
+      "edge_type": "hub_to_support",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "best sunscreen for acne-prone skin",
+        "non-comedogenic sunscreen",
+        "SPF for acne"
+      ]
+    },
+    {
+      "from": "hub_acne",
+      "to": "subhub_acne_sensitive",
+      "edge_type": "hub_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "acne-prone sensitive skin",
+        "sensitive acne guide",
+        "acne + sensitivity"
+      ]
+    },
+    {
+      "from": "subhub_adult_acne",
+      "to": "hub_acne",
+      "edge_type": "subhub_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "acne guide",
+        "skincare for acne",
+        "acne-prone skincare"
+      ]
+    },
+    {
+      "from": "subhub_adult_acne",
+      "to": "hub_sensitive",
+      "edge_type": "subhub_to_related_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "sensitive adult acne",
+        "sensitive skin guide",
+        "adult acne and sensitivity"
+      ]
+    },
+    {
+      "from": "subhub_adult_acne",
+      "to": "review_skin_virtue",
+      "edge_type": "subhub_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best skincare for adult acne",
+        "Skin Virtue",
+        "Skin Virtue review"
+      ]
+    },
+    {
+      "from": "subhub_adult_acne",
+      "to": "money_clear_skin",
+      "edge_type": "subhub_to_money",
+      "placement_hint": "below_fold",
+      "anchor_variants": [
+        "Australian skincare for clear skin",
+        "best skincare brands",
+        "clear skin guide"
+      ]
+    },
+    {
+      "from": "review_skin_virtue",
+      "to": "money_clear_skin",
+      "edge_type": "review_to_money",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "best Australian skincare brands",
+        "clear skin guide",
+        "best skincare for clear skin"
+      ]
+    },
+    {
+      "from": "review_skin_virtue",
+      "to": "hub_sensitive",
+      "edge_type": "review_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "skincare for sensitive skin",
+        "sensitive skin guide",
+        "gentle skincare"
+      ]
+    },
+    {
+      "from": "review_skin_virtue",
+      "to": "hub_acne",
+      "edge_type": "review_to_hub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "skincare for acne",
+        "acne-prone skincare",
+        "breakouts"
+      ]
+    },
+    {
+      "from": "review_skin_virtue",
+      "to": "subhub_adult_acne",
+      "edge_type": "review_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "adult acne skincare",
+        "adult breakouts",
+        "adult acne in Australia"
+      ]
+    },
+    {
+      "from": "support_sensitive_cleanser",
+      "to": "hub_sensitive",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "sensitive skin guide",
+        "skincare for sensitive skin",
+        "sensitive skin hub"
+      ]
+    },
+    {
+      "from": "support_sensitive_cleanser",
+      "to": "review_skin_virtue",
+      "edge_type": "support_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Skin Virtue review",
+        "gentle skincare option",
+        "Skin Virtue"
+      ]
+    },
+    {
+      "from": "support_sensitive_moisturiser",
+      "to": "hub_sensitive",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "sensitive skin guide",
+        "skincare for sensitive skin",
+        "sensitive skin hub"
+      ]
+    },
+    {
+      "from": "support_sensitive_moisturiser",
+      "to": "review_skin_virtue",
+      "edge_type": "support_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Skin Virtue review",
+        "barrier-supporting option",
+        "Skin Virtue"
+      ]
+    },
+    {
+      "from": "support_sensitive_sunscreen",
+      "to": "hub_sensitive",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "sensitive skin guide",
+        "skincare for sensitive skin",
+        "sensitive skin hub"
+      ]
+    },
+    {
+      "from": "support_sensitive_sunscreen",
+      "to": "money_clear_skin",
+      "edge_type": "support_to_money",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best Australian skincare brands",
+        "clear skin guide",
+        "best skincare for clear skin"
+      ]
+    },
+    {
+      "from": "support_acne_cleanser",
+      "to": "hub_acne",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "acne guide",
+        "skincare for acne",
+        "acne hub"
+      ]
+    },
+    {
+      "from": "support_acne_cleanser",
+      "to": "subhub_adult_acne",
+      "edge_type": "support_to_subhub",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "adult acne skincare",
+        "adult breakouts",
+        "adult acne in Australia"
+      ]
+    },
+    {
+      "from": "support_acne_moisturiser",
+      "to": "hub_acne",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "acne guide",
+        "skincare for acne",
+        "acne hub"
+      ]
+    },
+    {
+      "from": "support_acne_moisturiser",
+      "to": "review_skin_virtue",
+      "edge_type": "support_to_review",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "Skin Virtue review",
+        "gentle routine option",
+        "Skin Virtue"
+      ]
+    },
+    {
+      "from": "support_acne_sunscreen",
+      "to": "hub_acne",
+      "edge_type": "support_to_parent_hub",
+      "placement_hint": "above_fold",
+      "anchor_variants": [
+        "acne guide",
+        "skincare for acne",
+        "acne hub"
+      ]
+    },
+    {
+      "from": "support_acne_sunscreen",
+      "to": "money_clear_skin",
+      "edge_type": "support_to_money",
+      "placement_hint": "mid",
+      "anchor_variants": [
+        "best Australian skincare brands",
+        "clear skin guide",
+        "best skincare for clear skin"
+      ]
+    }
+  ]
+}

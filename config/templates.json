@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "global_constraints": {
+    "no_medical_claims": true,
+    "au_spelling": true,
+    "affiliate_disclosure_required": true,
+    "min_faq_questions": 3,
+    "max_faq_questions": 8
+  },
+  "roles": {
+    "MONEY_PAGE": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "intro_problem_statement",
+        "quick_picks_above_fold",
+        "comparison_table",
+        "ranked_recommendations_with_ctas",
+        "how_to_choose_section",
+        "faq_schema_ready",
+        "final_cta",
+        "affiliate_disclosure"
+      ]
+    },
+    "HUB": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "definition_and_who_its_for",
+        "causes_triggers_au_context",
+        "how_to_choose_guardrails",
+        "best_brands_section",
+        "simple_routine_am_pm",
+        "internal_links_to_subhubs_reviews_money",
+        "faq_schema_ready",
+        "affiliate_disclosure"
+      ]
+    },
+    "SUB_HUB": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "why_its_different",
+        "key_triggers",
+        "recommended_brands",
+        "routine_and_mistakes",
+        "faq_schema_ready",
+        "links_upward_and_to_reviews",
+        "affiliate_disclosure"
+      ]
+    },
+    "REVIEW_PAGE": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "quick_verdict_above_fold",
+        "what_it_is",
+        "ingredient_philosophy_cautious_wording",
+        "range_overview",
+        "who_it_suits_by_skin_type",
+        "pros_cons",
+        "alternatives_and_comparisons",
+        "faq_schema_ready",
+        "internal_links_to_hubs_subhubs_money",
+        "affiliate_disclosure"
+      ]
+    },
+    "SUPPORT_PAGE": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "criteria_what_to_look_for",
+        "top_picks_or_recommendations",
+        "routine_compatibility",
+        "common_mistakes",
+        "faq_schema_ready",
+        "internal_links_upward",
+        "affiliate_disclosure"
+      ]
+    },
+    "TRUST_PAGE": {
+      "required_blocks": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "plain_language_content",
+        "contact_or_disclosure_details"
+      ]
+    }
+  }
+}
