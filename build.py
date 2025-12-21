@@ -1,7 +1,7 @@
 # build.py
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Any
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -20,11 +20,13 @@ def slug_to_title(url: str) -> str:
     return parts[-1].replace("-", " ").title()
 
 def fm_escape(s: str) -> str:
-    return s.replace('"', '\"')
+    return s.replace('"', '\\"')
 
 def build_frontmatter(page: Dict[str, Any], site: Dict[str, Any]) -> str:
-    title = site.get("name","Home") if page["url"] == "/" else slug_to_title(page["url"])
+    title = site.get("name", "Home") if page["url"] == "/" else slug_to_title(page["url"])
     meta = fm_escape(", ".join(page.get("secondary_keywords", [])[:6]))
+    now = datetime.now(timezone.utc).isoformat()
+
     return "\n".join([
         "---",
         f'title: "{fm_escape(title)}"',
@@ -33,7 +35,7 @@ def build_frontmatter(page: Dict[str, Any], site: Dict[str, Any]) -> str:
         f'primary_keyword: "{fm_escape(page.get("primary_keyword",""))}"',
         f'secondary_keywords: "{meta}"',
         f'geo: "{site.get("geo","")}"',
-        f'generated_at: "{datetime.utcnow().isoformat()}Z"',
+        f'generated_at: "{now}"',
         "---",
         ""
     ])
@@ -146,7 +148,6 @@ def role_scaffold(page: Dict[str, Any], site: Dict[str, Any]) -> str:
             "Add your preferred contact method and business details here."
         ])
 
-    # SUPPORT_PAGE
     return "\n\n".join([
         f"# {h1}",
         "This guide helps you choose a product type for your concern using simple criteria and Australia-relevant considerations.",
@@ -195,7 +196,7 @@ def main():
     for e in linkmap["edges"]:
         outgoing.setdefault(e["from"], []).append(e)
 
-    report = {"generated_at": datetime.utcnow().isoformat() + "Z", "pages": [], "errors": []}
+    report = {"generated_at": datetime.now(timezone.utc).isoformat(), "pages": [], "errors": []}
 
     for p in pages:
         url = p["url"]
@@ -213,7 +214,6 @@ def main():
             "outbound_links": len(outgoing.get(p["id"], []))
         })
 
-    # Basic validation
     min_out = linkmap["policies"]["min_outbound_links_per_page"]
     for entry in report["pages"]:
         role = id_to_page[entry["id"]]["role"]
