@@ -1,6 +1,8 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // App Router
-  reactStrictMode: true
+  reactStrictMode: true,
+  trailingSlash: true
 };
+
 export default nextConfig;
