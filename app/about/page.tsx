@@ -1,7 +1,7 @@
 // app/about/page.tsx
 export const metadata = {
   title: "About — Clear Skin Australia",
-  description: "About Clear Skin Australia and how we create our skincare guides.",
+  description: "Our approach: calm, barrier-first skincare guidance for Australian conditions.",
 };
 
 export default function AboutPage() {
@@ -9,45 +9,33 @@ export default function AboutPage() {
     <div className="stack">
       <section className="card">
         <p className="kicker">About</p>
-        <h1>Clear Skin Australia</h1>
+        <h1>Clear, calm skincare — built for Australian conditions</h1>
         <p className="lead">
-          Clear Skin Australia is an independent skincare guide focused on what works
-          for Australian conditions — heat, humidity, UV exposure, and the reality of
-          reactive or acne-prone skin.
+          Clear Skin Australia is an independent skincare education platform focused on
+          simple routines that support the skin barrier — especially for sensitive or
+          reactive-prone skin.
         </p>
-        <p className="muted" style={{ marginTop: 10 }}>
-          We publish routine guidance, brand reviews, and product-type explainers to help
-          you make calmer, more confident choices without hype or medical claims.
-        </p>
-      </section>
-
-      <section className="grid2">
-        <div className="card">
-          <h2>What you’ll find here</h2>
-          <ul className="list">
-            <li>Simple routine building (cleanser → moisturiser → sunscreen)</li>
-            <li>Barrier-first guidance (less irritation, more consistency)</li>
-            <li>Brand reviews (who it suits, what it’s good for, where to buy)</li>
-            <li>Australian-relevant context (UV, climate, lifestyle)</li>
-          </ul>
-        </div>
-
-        <div className="card">
-          <h2>What we don’t do</h2>
-          <ul className="list">
-            <li>No diagnosis or treatment advice</li>
-            <li>No “miracle cure” claims</li>
-            <li>No paid rankings that override our editorial judgement</li>
-          </ul>
-        </div>
       </section>
 
       <section className="card">
-        <div className="notice">
-          <strong>Important note:</strong> Information on this site is general only and
-          not medical advice. Always patch test products and consult a qualified
-          professional for medical concerns.
-        </div>
+        <h2>Our philosophy</h2>
+        <ul className="list">
+          <li><strong>Barrier-first:</strong> comfort, hydration, and consistency beat harsh “quick fixes”.</li>
+          <li><strong>Plain-English guidance:</strong> routines and product types explained without hype.</li>
+          <li><strong>Australian context:</strong> heat, humidity, UV exposure, and everyday lifestyle.</li>
+        </ul>
+        <p className="muted">
+          We keep content conservative and practical. Patch testing matters. If you have a medical concern,
+          please speak with a qualified professional.
+        </p>
+      </section>
+
+      <section className="card">
+        <h2>Clear Skin Essentials</h2>
+        <p className="muted">
+          We’re developing our own fragrance-free product line designed around gentle,
+          barrier-supporting skincare. Updates will appear on the site as the range progresses.
+        </p>
       </section>
     </div>
   );
