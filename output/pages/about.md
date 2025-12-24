@@ -1,42 +1,109 @@
 ---
 title: "About Clear Skin Australia"
-description: "Plain-language information about Clear Skin Australia, our approach, and what we’re building."
-role: "TRUST_PAGE"
+description: "Who we are, what we do, and how Clear Skin Australia helps Australians make calmer skincare choices."
+role: TRUST_PAGE
 ---
 
 # About Clear Skin Australia
 
-Clear Skin Australia is an independent skincare guide built for Australian conditions — heat, humidity, UV exposure, and the reality that a lot of people have sensitive, reactive, or acne-prone skin.
+Clear Skin Australia is an independent skincare education and review platform built specifically for **Australian conditions** — heat, humidity, UV exposure, and the everyday realities that affect sensitive, reactive, and acne-prone skin.
 
-We publish plain-language guidance and brand reviews so you can make calmer, more confident choices without hype or medical claims.
+Our goal is simple:  
+to help people make **calmer, more confident skincare decisions** without hype, fear-based marketing, or unrealistic promises.
 
-## Our approach
+---
 
-We keep it simple:
+## Who we are
 
-- **Barrier-first routines** (because irritated skin rarely behaves like “clear skin”)
-- **Gentle over aggressive** (especially if you’re reactive-prone)
-- **Australian context** (climate, lifestyle, and sun exposure matter)
-- **Transparency** (clear explanations, clear disclosures)
+Clear Skin Australia was created to address a common problem:  
+many skincare routines fail not because people aren’t trying hard enough, but because their skin is **over-treated, over-exfoliated, or constantly irritated**.
 
-## What we’re building
+We focus on:
+- sensitive and reactive skin  
+- adult and ongoing acne  
+- barrier-first skincare routines  
+- fragrance-aware product selection  
 
-Alongside the guide, we’re developing our own product line:
+Everything we publish is written to be **practical, conservative, and easy to follow**.
 
-**Clear Skin Essentials — by Clear Skin Australia**
+---
 
-It’s designed to be **fragrance-free**, **sensitive-skin friendly**, and focused on **hydration + comfort + barrier support**.
+## What we do
 
-We’ll share updates as products move through sampling and testing.
+We publish:
+- skincare guides and routines  
+- brand and product reviews  
+- comparisons and recommendations  
+- plain-language explanations of ingredients and product types  
 
-## Important note
+Rather than chasing trends or “miracle cures”, we prioritise:
+- routine consistency  
+- skin comfort  
+- long-term skin health  
 
-Clear Skin Australia provides general skincare information only. We do not offer medical advice or diagnose skin conditions. Always patch test new products and consult a qualified professional for medical concerns.
+Our content is written for everyday people — not just skincare enthusiasts.
 
-## Quick links
+---
 
-- Start here: **[Best Australian Skincare for Clear Skin](/best-australian-skincare-clear-skin/)**
-- Explore: **[Sensitive Skin Hub](/skincare/sensitive-skin/)**
-- Explore: **[Acne Hub](/skincare/acne/)**
-- Read: **[Skin Virtue Review](/reviews/skin-virtue/)**
-- Transparency: **[Disclosure](/disclosure/)**
+## What we sell (and what we don’t)
+
+### What we don’t sell
+- We do **not** sell medical treatments  
+- We do **not** provide diagnoses  
+- We do **not** promise cures  
+
+### What we do sell
+Clear Skin Australia is developing its own product line:
+
+**Clear Skin Essentials** — a small, focused range of skincare products designed around:
+- fragrance-free formulations  
+- barrier support  
+- sensitive and acne-prone skin  
+- simple, repeatable routines  
+
+These products are being developed to align exactly with the philosophy taught across this site.
+
+Updates will be shared openly as products move through development and launch.
+
+---
+
+## How this site is supported
+
+Some pages on Clear Skin Australia contain affiliate links.  
+If you click a link and make a purchase, we may earn a commission — at no extra cost to you.
+
+This helps cover the cost of running the site and producing content.
+
+Affiliate partnerships **do not override** our editorial approach.  
+Full details are available on our [Disclosure](/disclosure/) page.
+
+---
+
+## Our approach to skincare advice
+
+Clear Skin Australia provides **general skincare information only**.
+
+We:
+- do not diagnose skin conditions  
+- do not provide medical advice  
+- encourage patch testing  
+- recommend consulting qualified professionals for medical concerns  
+
+Our focus is on **education, not treatment**.
+
+---
+
+## Where to start
+
+If you’re new here:
+- Start with our main guide:  
+  **[Best Australian Skincare for Clear Skin](/best-australian-skincare-clear-skin/)**
+- Explore by concern:  
+  **[Sensitive Skin Hub](/skincare/sensitive-skin/)**  
+  **[Acne Skincare Hub](/skincare/acne/)**
+
+---
+
+**Clear Skin Australia** exists to reduce confusion, calm irritated skin, and help people build routines they can actually stick to.
+
+That’s it. No hype. No pressure. Just clearer information.
