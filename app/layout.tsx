@@ -21,28 +21,35 @@ export default function RootLayout({
       </head>
       <body>
         <div className="site">
-          <header className="siteHeader">
-            <div className="container">
-              <a className="brand" href="/">
-                Clear Skin Australia
+          <header className="header">
+            <div className="container headerInner">
+              <a href="/" className="brand">
+                <span className="brandName">Clear Skin Australia</span>
+                <span className="brandTag">Skincare guides for Aussie conditions</span>
               </a>
+
               <nav className="nav">
-                <a href="/best-australian-skincare-clear-skin/">Best Skincare</a>
+                <a href="/best-australian-skincare-clear-skin/">Best</a>
                 <a href="/skincare/acne/">Acne</a>
                 <a href="/skincare/sensitive-skin/">Sensitive</a>
+                <a href="/reviews/skin-virtue/">Reviews</a>
                 <a href="/disclosure/">Disclosure</a>
               </nav>
             </div>
           </header>
 
-          <main className="siteMain">{children}</main>
+          <main className="container main">{children}</main>
 
-          <footer className="siteFooter">
-            <div className="container">
-              <p className="fineprint">
-                © {new Date().getFullYear()} Clear Skin Australia • Affiliate-supported • General
-                information only (not medical advice).
-              </p>
+          <footer className="footer">
+            <div className="container footerInner">
+              <div className="footerLinks">
+                <a href="/about/">About</a>
+                <a href="/contact/">Contact</a>
+                <a href="/disclosure/">Disclosure</a>
+              </div>
+              <div className="footerNote">
+                © {new Date().getFullYear()} Clear Skin Australia
+              </div>
             </div>
           </footer>
         </div>
