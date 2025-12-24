@@ -7,9 +7,9 @@ export default function HomePage() {
         <h1>Clear skin starts with the right Australian skincare</h1>
         <p className="lead">
           Clear Skin Australia is focused on skincare that works with Australian
-          conditions — heat, humidity, UV exposure, and reactive or acne-prone
-          skin. We break down routines, brands, and product types so you can make
-          calmer, more confident choices without hype or medical claims.
+          conditions — heat, humidity, UV exposure, and reactive or acne-prone skin.
+          We break down routines, brands, and product types so you can make calmer,
+          more confident choices without hype or medical claims.
         </p>
 
         <div className="ctaRow">
@@ -36,12 +36,12 @@ export default function HomePage() {
               — main comparison + recommendations
             </li>
             <li>
-              <a href="/skincare/acne/">Acne Skincare Hub</a> — breakouts, adult
-              acne, acne-prone routines
+              <a href="/skincare/acne/">Acne Skincare Hub</a> — breakouts, adult acne,
+              acne-prone routines
             </li>
             <li>
-              <a href="/skincare/sensitive-skin/">Sensitive Skin Hub</a> — reactive
-              skin, barrier-first routines
+              <a href="/skincare/sensitive-skin/">Sensitive Skin Hub</a> — reactive skin,
+              barrier-first routines
             </li>
           </ul>
         </div>
@@ -49,8 +49,7 @@ export default function HomePage() {
         <div className="card">
           <h2>Featured brand reviews</h2>
           <p className="muted">
-            Formulation approach, who each brand suits, and where it fits in a
-            simple routine.
+            Formulation approach, who each brand suits, and where it fits in a simple routine.
           </p>
           <ul className="list">
             <li>
@@ -76,9 +75,8 @@ export default function HomePage() {
         </div>
 
         <div className="notice">
-          <strong>Important note:</strong> General skincare information only. No
-          medical advice, diagnosis, or treatment. Patch test and consult a
-          qualified professional for medical concerns.
+          <strong>Important note:</strong> General skincare information only. No medical advice,
+          diagnosis, or treatment. Patch test and consult a qualified professional for medical concerns.
         </div>
       </section>
     </div>
