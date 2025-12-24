@@ -1,7 +1,7 @@
 // app/contact/page.tsx
 export const metadata = {
   title: "Contact — Clear Skin Australia",
-  description: "Contact Clear Skin Australia for feedback, corrections, or partnerships.",
+  description: "Contact Clear Skin Australia.",
 };
 
 export default function ContactPage() {
@@ -11,29 +11,31 @@ export default function ContactPage() {
         <p className="kicker">Contact</p>
         <h1>Get in touch</h1>
         <p className="lead">
-          For corrections, feedback, or brand/affiliate enquiries, you can reach us by email.
+          For general enquiries, partnerships, or corrections, you can reach us here.
         </p>
 
-        <div className="notice" style={{ marginTop: 14 }}>
-          <strong>Email:</strong>{" "}
-          <a href="mailto:hello@clearskinaustralia.com">hello@clearskinaustralia.com</a>
-          <div style={{ marginTop: 8 }}>
-            If you don’t have email on the domain set up yet, use your Gmail placeholder here
-            later (we can swap it in anytime).
-          </div>
+        <div className="notice">
+          <strong>Note:</strong> We can’t provide medical advice or diagnose skin conditions.
+          If you’re dealing with a medical issue, please consult a qualified professional.
         </div>
       </section>
 
       <section className="card">
-        <h2>Partnerships</h2>
+        <h2>Email</h2>
         <p className="muted">
-          We’re open to affiliate partnerships and product gifting, but we only recommend
-          products we believe suit the page intent and audience needs.
+          Add your business email here when ready (recommended: a dedicated address for the brand).
         </p>
         <ul className="list">
-          <li>Please include your brand/site link, product range, and affiliate platform used.</li>
-          <li>We do not accept payment for rankings or “guaranteed positive” reviews.</li>
+          <li>
+            <strong>General:</strong> contact@clearskinaustralia.com (suggested)
+          </li>
+          <li>
+            <strong>Partnerships:</strong> partnerships@clearskinaustralia.com (suggested)
+          </li>
         </ul>
+        <p className="muted">
+          If you’re not ready to set these up yet, keep this page live and swap the addresses later.
+        </p>
       </section>
     </div>
   );
