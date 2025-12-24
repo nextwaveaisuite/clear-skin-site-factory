@@ -25,7 +25,9 @@ export default function RootLayout({
             <div className="container headerInner">
               <a href="/" className="brand">
                 <span className="brandName">Clear Skin Australia</span>
-                <span className="brandTag">Skincare guides for Aussie conditions</span>
+                <span className="brandTag">
+                  Skincare guides for Aussie conditions
+                </span>
               </a>
 
               <nav className="nav">
