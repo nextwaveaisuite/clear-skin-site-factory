@@ -1,18 +1,24 @@
 // app/layout.tsx
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Clear Skin Australia",
-  description: "Australian skincare guides, reviews, and routines for clearer skin.",
-  other: {
-    "commission-factory-verification": "3564607bf56643cb9831d03c1a662fa0",
-  },
+  description: "Australian skincare guides, reviews, and recommendations.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="commission-factory-verification"
+          content="3564607bf56643cb9831d03c1a662fa0"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
