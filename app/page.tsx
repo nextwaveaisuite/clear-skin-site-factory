@@ -1,92 +1,82 @@
 // app/page.tsx
 export default function HomePage() {
   return (
-    <div className="container">
-      <section className="hero">
-        <p className="kicker">Australian skincare, explained simply</p>
-        <h1>Clear Skin Starts With the Right Australian Skincare</h1>
-        <p className="lede">
-          Clear Skin Australia is an independent guide focused on skincare that works with Australian
-          conditions — heat, humidity, UV exposure, and sensitive or acne-prone skin.
-        </p>
-        <p className="lede">
-          We break down routines, brands, and product types so you can make calmer, more confident
-          choices without hype or medical claims.
+    <div className="stack">
+      <section className="hero card">
+        <p className="kicker">Independent Australian skincare guide</p>
+        <h1>Clear skin starts with the right Australian skincare</h1>
+        <p className="lead">
+          Clear Skin Australia is focused on skincare that works with Australian
+          conditions — heat, humidity, UV exposure, and reactive or acne-prone skin.
+          We break down routines, brands, and product types so you can make calmer,
+          more confident choices without hype or medical claims.
         </p>
 
         <div className="ctaRow">
-          <a className="btnPrimary" href="/best-australian-skincare-clear-skin/">
-            Start here: Best Australian Skincare
+          <a className="btn primary" href="/best-australian-skincare-clear-skin/">
+            Start with the Best Australian Skincare guide
           </a>
-          <a className="btnGhost" href="/disclosure/">
-            How we’re funded
+          <a className="btn" href="/skincare/acne/">
+            Acne hub
           </a>
-        </div>
-      </section>
-
-      <section className="section">
-        <h2>Where to Start</h2>
-        <div className="grid">
-          <a className="card" href="/best-australian-skincare-clear-skin/">
-            <h3>Best Australian Skincare for Clear Skin</h3>
-            <p>Main comparison + recommendations (simple picks that suit Aussie life).</p>
-          </a>
-
-          <a className="card" href="/skincare/acne/">
-            <h3>Acne Skincare Hub</h3>
-            <p>Guidance for breakouts, adult acne, and acne-prone routines.</p>
-          </a>
-
-          <a className="card" href="/skincare/sensitive-skin/">
-            <h3>Sensitive Skin Hub</h3>
-            <p>Barrier-first routines for reactive, easily irritated skin.</p>
+          <a className="btn" href="/skincare/sensitive-skin/">
+            Sensitive skin hub
           </a>
         </div>
       </section>
 
-      <section className="section">
-        <h2>Featured Brand Reviews</h2>
-        <p className="muted">
-          Reviews focus on formulation approach, who each brand suits, and where they fit within a
-          simple routine.
-        </p>
-
-        <div className="grid">
-          <a className="card" href="/reviews/skin-virtue/">
-            <h3>Skin Virtue Review</h3>
-            <p>Who it suits, what it’s like in real routines, and where to buy.</p>
-          </a>
-
-          <a className="card" href="/reviews/seadragon-organic/">
-            <h3>Seadragon Organic Review</h3>
-            <p>Clean-leaning skincare — what to consider before you buy.</p>
-          </a>
-
-          <a className="card" href="/reviews/natio/">
-            <h3>Natio Skincare Review</h3>
-            <p>Everyday Australian staple — best picks for different skin types.</p>
-          </a>
-        </div>
-      </section>
-
-      <section className="section split">
-        <div className="panel">
-          <h2>Our Approach</h2>
+      <section className="grid2">
+        <div className="card">
+          <h2>Where to start</h2>
           <ul className="list">
-            <li>Australian-relevant guidance (climate, UV, lifestyle)</li>
-            <li>Barrier-first routines over aggressive actives</li>
-            <li>Simple product selection that’s easy to stick to</li>
-            <li>Affiliate-supported, independently written content</li>
+            <li>
+              <a href="/best-australian-skincare-clear-skin/">
+                Best Australian Skincare for Clear Skin
+              </a>{" "}
+              — main comparison + recommendations
+            </li>
+            <li>
+              <a href="/skincare/acne/">Acne Skincare Hub</a> — breakouts, adult acne,
+              acne-prone routines
+            </li>
+            <li>
+              <a href="/skincare/sensitive-skin/">Sensitive Skin Hub</a> — reactive skin,
+              barrier-first routines
+            </li>
           </ul>
         </div>
 
-        <div className="panel note">
-          <h2>Important Note</h2>
+        <div className="card">
+          <h2>Featured brand reviews</h2>
           <p className="muted">
-            Clear Skin Australia provides general skincare information only. We do not offer medical
-            advice or diagnose skin conditions. Always patch test products and consult a qualified
-            professional for medical concerns.
+            Formulation approach, who each brand suits, and where it fits in a simple routine.
           </p>
+          <ul className="list">
+            <li>
+              <a href="/reviews/skin-virtue/">Skin Virtue review</a>
+            </li>
+            <li>
+              <a href="/reviews/seadragon-organic/">Seadragon Organic review</a>
+            </li>
+            <li>
+              <a href="/reviews/natio/">Natio skincare review</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="card">
+        <h2>Our approach</h2>
+        <div className="pillRow">
+          <span className="pill">Australian-relevant (climate + UV)</span>
+          <span className="pill">Barrier-first routines</span>
+          <span className="pill">Simple product selection</span>
+          <span className="pill">Affiliate-supported, independently written</span>
+        </div>
+
+        <div className="notice">
+          <strong>Important note:</strong> General skincare information only. No medical advice,
+          diagnosis, or treatment. Patch test and consult a qualified professional for medical concerns.
         </div>
       </section>
     </div>
