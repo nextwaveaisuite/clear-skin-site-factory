@@ -1,14 +1,110 @@
-main.container {
-  max-width: 1000px;
+/* app/globals.css */
+
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --card: #f9fafb;
+}
+
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: 1.65;
+}
+
+/* Layout */
+.container {
+  width: 100%;
+  max-width: 980px;          /* stops edge-to-edge */
   margin: 0 auto;
-  padding: 24px 16px;
+  padding: 0 18px;
 }
 
-.prose > * + * {
-  margin-top: 14px;
+.content {
+  padding: 28px 0 48px;
 }
 
-.prose h1, .prose h2, .prose h3 {
-  margin-top: 24px;
-  line-height: 1.2;
+/* Header / Nav */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.brand {
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--text);
+  letter-spacing: -0.2px;
+}
+
+.nav {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background: var(--card);
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 18px 0;
+}
+
+.muted { color: var(--muted); font-size: 14px; }
+
+/* Typography (makes markdown + homepage look clean) */
+h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.6px; margin: 18px 0 10px; }
+h2 { font-size: 22px; margin: 26px 0 10px; }
+h3 { font-size: 18px; margin: 18px 0 8px; }
+
+p { margin: 10px 0; }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+
+a { color: inherit; }
+main a { text-decoration: underline; text-underline-offset: 3px; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 22px 0;
+}
+
+/* Simple “card” style you can use in pages if you want */
+.card {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px;
 }
