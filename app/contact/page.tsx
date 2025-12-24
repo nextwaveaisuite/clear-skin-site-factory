@@ -1,7 +1,8 @@
 // app/contact/page.tsx
 export const metadata = {
   title: "Contact — Clear Skin Australia",
-  description: "Contact Clear Skin Australia.",
+  description:
+    "How to contact Clear Skin Australia for feedback, corrections, or partnerships.",
 };
 
 export default function ContactPage() {
@@ -11,30 +12,35 @@ export default function ContactPage() {
         <p className="kicker">Contact</p>
         <h1>Get in touch</h1>
         <p className="lead">
-          For general enquiries, partnerships, or corrections, you can reach us here.
+          For feedback, corrections, or general questions, you can contact us
+          using the details below.
         </p>
 
-        <div className="notice">
-          <strong>Note:</strong> We can’t provide medical advice or diagnose skin conditions.
-          If you’re dealing with a medical issue, please consult a qualified professional.
+        <div className="notice" style={{ marginTop: 14 }}>
+          <strong>Contact / Details:</strong>
+          <div style={{ marginTop: 8 }}>
+            <p className="muted">
+              Email: <strong>hello@clearskinaustralia.com</strong>
+            </p>
+            <p className="muted">
+              Website: <strong>clearskinaustralia.com</strong>
+            </p>
+          </div>
         </div>
+
+        <p className="muted" style={{ marginTop: 12 }}>
+          If you’re a brand reaching out, please include: product name, where it
+          is sold in Australia, full ingredient list (INCI), and any testing or
+          claims documentation you want us to consider.
+        </p>
       </section>
 
       <section className="card">
-        <h2>Email</h2>
+        <h2>Corrections policy</h2>
         <p className="muted">
-          Add your business email here when ready (recommended: a dedicated address for the brand).
-        </p>
-        <ul className="list">
-          <li>
-            <strong>General:</strong> contact@clearskinaustralia.com (suggested)
-          </li>
-          <li>
-            <strong>Partnerships:</strong> partnerships@clearskinaustralia.com (suggested)
-          </li>
-        </ul>
-        <p className="muted">
-          If you’re not ready to set these up yet, keep this page live and swap the addresses later.
+          If we’ve made an error in a review or guide, we’ll fix it. Send the
+          corrected information and a source (product label photo or official
+          listing) and we’ll update the page where appropriate.
         </p>
       </section>
     </div>
